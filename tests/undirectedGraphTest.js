@@ -1,6 +1,5 @@
 var graphs=require('../lib/graph');
 var assert=require('chai').assert;
-
 describe("add Edges",function(){
 	it("should be able to determine if an edge is present",function(){
 		var g=new graphs.UndirectedGraph();
